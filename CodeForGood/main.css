@@ -1,0 +1,2887 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic);
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+html {
+    line-height: 1
+}
+ol,
+ul {
+    list-style: none
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle
+}
+q,
+blockquote {
+    quotes: none
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none
+}
+a img {
+    border: none
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+@font-face {
+    font-family: "Futura Medium";
+    src: url("../../fonts/futurastd-medium-webfont.eot");
+    src: url("../../fonts/futurastd-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/futurastd-medium-webfont.woff") format("woff"), url("../../fonts/futurastd-medium-webfont.ttf") format("truetype"), url("../../fonts/futurastd-medium-webfont.svg#futura_std_mediumregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: "Futura Medium Condensed";
+    src: url("../../fonts/futubtmc-webfont.eot");
+    src: url("../../fonts/futubtmc-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/futubtmc-webfont.woff") format("woff"), url("../../fonts/futubtmc-webfont.ttf") format("truetype"), url("../../fonts/futubtmc-webfont.svg#futuramedium_condensed") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: "Futura Heavy";
+    src: url("../../fonts/futurastd-heavy-webfont.eot");
+    src: url("../../fonts/futurastd-heavy-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/futurastd-heavy-webfont.woff") format("woff"), url("../../fonts/futurastd-heavy-webfont.ttf") format("truetype"), url("../../fonts/futurastd-heavy-webfont.svg#futura_std_mediumbold") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Futura Bold Condensed';
+    src: url("../../fonts/futubtbc-webfont.eot");
+    src: url("../../fonts/futubtbc-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/futubtbc-webfont.woff") format("woff"), url("../../fonts/futubtbc-webfont.ttf") format("truetype"), url("../../fonts/futubtbc-webfont.svg#futurabold_condensed") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+.bold,
+.before-arrow,
+.after-arrow,
+footer .buy-it-now,
+#sidebar .side-1 .number-container .number,
+#tiger-compare .indicator span {
+    font-family: "Futura Heavy", sans-serif
+}
+.medium,
+.subtext,
+#tiger-images .subtext,
+#survival .subtext,
+#tiger-compare .subtext,
+#tiger-virtual .subtext,
+#rotate .subtext,
+#island-building .subtext,
+#island-whirlpool .subtext,
+#whale-drawing .subtext,
+#whale-spin .subtext,
+#sidebar .side-1 .top>p,
+#storm .title-wrapper p,
+#buy .overlay li {
+    font-family: "Futura Medium", sans-serif
+}
+.medium-condensed,
+.title,
+.title span,
+#tiger-images .title,
+#survival .title,
+#tiger-compare .title,
+#tiger-virtual .title,
+#rotate .title,
+#island-building .title,
+#island-whirlpool .title,
+#whale-drawing .title,
+#whale-spin .title,
+footer ul,
+#lid .quote,
+#sidebar .side-1 .top>h3,
+#sidebar .side-1 .side-2 .number,
+#sidebar .side-1 .side-2 .gallons,
+#sidebar .side-1 .number-container .time,
+#waves .title-wrapper,
+#waves .title-wrapper .title,
+#videos li .bar,
+#storm .title-wrapper .title,
+#days-cover .quote,
+#island-video .watch,
+#whale-video .watch,
+#loading .award,
+#loading .including,
+#loading .title span {
+    font-family: "Futura Medium Condensed", sans-serif
+}
+.bold-condensed,
+#loading .percent,
+#loading .title,
+#buy .hole .dark-button,
+#buy .overlay ul,
+#buy .overlay h3 {
+    font-family: "Futura Bold Condensed", sans-serif
+}
+.droid,
+.subtitle,
+#sidebar .side-1>p,
+#storm .footer {
+    font-family: "Droid Serif", serif
+}
+.title {
+    border: 10px solid #fff;
+    background: url(../../images/samples/black-35.png);
+    background: rgba(0, 0, 0, 0.35);
+    display: inline-block;
+    font-size: 53px;
+    color: #fff;
+    padding: 11px 30px 9px 30px
+}
+.subtitle {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff
+}
+.subtext {
+    font-size: 14px;
+    line-height: 22px;
+    width: 340px;
+    margin: auto;
+    color: #fff;
+    margin-top: 30px
+}
+.translate,
+#days-cover,
+#waves,
+#tiger-cover,
+#island-cover,
+#whale-cover,
+#days-cover ul,
+#waves ul,
+#tiger-cover ul,
+#island-cover ul,
+#whale-cover ul,
+#days-cover ul li,
+#waves ul li,
+#tiger-cover ul li,
+#island-cover ul li,
+#whale-cover ul li,
+#days-cover ul li .container,
+#waves ul li .container,
+#tiger-cover ul li .container,
+#island-cover ul li .container,
+#whale-cover ul li .container,
+#tiger-images .title-wrapper,
+#survival .title-wrapper,
+#tiger-compare .title-wrapper,
+#tiger-virtual .title-wrapper,
+#rotate .title-wrapper,
+#island-building .title-wrapper,
+#island-whirlpool .title-wrapper,
+#whale-drawing .title-wrapper,
+#whale-spin .title-wrapper,
+#lid,
+#sidebar,
+#seperator,
+#drift,
+#drift .frame-container,
+#drift .frame-container .holder,
+#drift .frame-container .blend-frame,
+#drift .frame-container .blend-frame .inner-blend,
+#videos,
+#storm,
+#storm .holder,
+#storm .wrapper,
+#storm .holder-2,
+#storm .wrapper-2,
+#storm .arrow-holder,
+#storm .holder .image,
+#storm .holder-2 .image,
+#storm .compilation,
+#storm .footer,
+#tiger-images,
+#tiger-compare,
+#tiger-virtual,
+#tiger-background,
+#survival,
+#island-seperator,
+#island-building,
+#island-building .corner>div,
+#island-building .corner>div .container,
+#island-whirlpool,
+#island-whirlpool .left div,
+#island-whirlpool .right div,
+#island-video,
+#whale-video,
+#whale-drawing,
+#whale-end,
+#loading,
+#buy {
+    position: absolute
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-device-pixel-ratio: 1) {
+    .translate,
+    #days-cover,
+    #waves,
+    #tiger-cover,
+    #island-cover,
+    #whale-cover,
+    #days-cover ul,
+    #waves ul,
+    #tiger-cover ul,
+    #island-cover ul,
+    #whale-cover ul,
+    #days-cover ul li,
+    #waves ul li,
+    #tiger-cover ul li,
+    #island-cover ul li,
+    #whale-cover ul li,
+    #days-cover ul li .container,
+    #waves ul li .container,
+    #tiger-cover ul li .container,
+    #island-cover ul li .container,
+    #whale-cover ul li .container,
+    #tiger-images .title-wrapper,
+    #survival .title-wrapper,
+    #tiger-compare .title-wrapper,
+    #tiger-virtual .title-wrapper,
+    #rotate .title-wrapper,
+    #island-building .title-wrapper,
+    #island-whirlpool .title-wrapper,
+    #whale-drawing .title-wrapper,
+    #whale-spin .title-wrapper,
+    #lid,
+    #sidebar,
+    #seperator,
+    #drift,
+    #drift .frame-container,
+    #drift .frame-container .holder,
+    #drift .frame-container .blend-frame,
+    #drift .frame-container .blend-frame .inner-blend,
+    #videos,
+    #storm,
+    #storm .holder,
+    #storm .wrapper,
+    #storm .holder-2,
+    #storm .wrapper-2,
+    #storm .arrow-holder,
+    #storm .holder .image,
+    #storm .holder-2 .image,
+    #storm .compilation,
+    #storm .footer,
+    #tiger-images,
+    #tiger-compare,
+    #tiger-virtual,
+    #tiger-background,
+    #survival,
+    #island-seperator,
+    #island-building,
+    #island-building .corner>div,
+    #island-building .corner>div .container,
+    #island-whirlpool,
+    #island-whirlpool .left div,
+    #island-whirlpool .right div,
+    #island-video,
+    #whale-video,
+    #whale-drawing,
+    #whale-end,
+    #loading,
+    #buy {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none
+    }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-device-pixel-ratio: 2) {
+    .translate,
+    #days-cover,
+    #waves,
+    #tiger-cover,
+    #island-cover,
+    #whale-cover,
+    #days-cover ul,
+    #waves ul,
+    #tiger-cover ul,
+    #island-cover ul,
+    #whale-cover ul,
+    #days-cover ul li,
+    #waves ul li,
+    #tiger-cover ul li,
+    #island-cover ul li,
+    #whale-cover ul li,
+    #days-cover ul li .container,
+    #waves ul li .container,
+    #tiger-cover ul li .container,
+    #island-cover ul li .container,
+    #whale-cover ul li .container,
+    #tiger-images .title-wrapper,
+    #survival .title-wrapper,
+    #tiger-compare .title-wrapper,
+    #tiger-virtual .title-wrapper,
+    #rotate .title-wrapper,
+    #island-building .title-wrapper,
+    #island-whirlpool .title-wrapper,
+    #whale-drawing .title-wrapper,
+    #whale-spin .title-wrapper,
+    #lid,
+    #sidebar,
+    #seperator,
+    #drift,
+    #drift .frame-container,
+    #drift .frame-container .holder,
+    #drift .frame-container .blend-frame,
+    #drift .frame-container .blend-frame .inner-blend,
+    #videos,
+    #storm,
+    #storm .holder,
+    #storm .wrapper,
+    #storm .holder-2,
+    #storm .wrapper-2,
+    #storm .arrow-holder,
+    #storm .holder .image,
+    #storm .holder-2 .image,
+    #storm .compilation,
+    #storm .footer,
+    #tiger-images,
+    #tiger-compare,
+    #tiger-virtual,
+    #tiger-background,
+    #survival,
+    #island-seperator,
+    #island-building,
+    #island-building .corner>div,
+    #island-building .corner>div .container,
+    #island-whirlpool,
+    #island-whirlpool .left div,
+    #island-whirlpool .right div,
+    #island-video,
+    #whale-video,
+    #whale-drawing,
+    #whale-end,
+    #loading,
+    #buy {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none
+    }
+}
+.scroll-arrow {
+    background-image: url(../../images/lid/arrow.png);
+    margin: auto;
+    width: 33px;
+    height: 45px;
+    margin-top: 22px
+}
+.before-arrow,
+.after-arrow {
+    position: absolute;
+    padding-left: 20px;
+    font-size: 16px;
+    top: 10px;
+    color: #fff;
+    background-image: url(../../images/waves/arrow-down.png);
+    background-position: left center;
+    background-repeat: no-repeat
+}
+.after-arrow {
+    background-image: url(../../images/waves/arrow-up.png);
+    top: -22px
+}
+.drop-shadow {
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset
+}
+.drop-shadow:before,
+.drop-shadow:after {
+    content: "";
+    position: absolute;
+    z-index: -2
+}
+.lifted:before,
+.lifted:after {
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    height: 20%;
+    max-width: 300px;
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.8);
+    -webkit-transform: rotate(-9deg);
+    -moz-transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
+    -o-transform: rotate(-9deg);
+    transform: rotate(-9deg)
+}
+.lifted:after {
+    right: 10px;
+    left: auto;
+    -webkit-transform: rotate(9deg);
+    -moz-transform: rotate(9deg);
+    -ms-transform: rotate(9deg);
+    -o-transform: rotate(9deg);
+    transform: rotate(9deg)
+}
+#days-cover ul,
+#waves ul,
+#tiger-cover ul,
+#island-cover ul,
+#whale-cover ul {
+    width: 100%;
+    height: 100%;
+    position: absolute
+}
+#days-cover ul li,
+#waves ul li,
+#tiger-cover ul li,
+#island-cover ul li,
+#whale-cover ul li {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden
+}
+#days-cover ul li .container,
+#waves ul li .container,
+#tiger-cover ul li .container,
+#island-cover ul li .container,
+#whale-cover ul li .container {
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+#tiger-images .title-wrapper,
+#survival .title-wrapper,
+#tiger-compare .title-wrapper,
+#tiger-virtual .title-wrapper,
+#rotate .title-wrapper,
+#island-building .title-wrapper,
+#island-whirlpool .title-wrapper,
+#whale-drawing .title-wrapper,
+#whale-spin .title-wrapper {
+    width: 100%;
+    text-align: center
+}
+#tiger-images .title,
+#survival .title,
+#tiger-compare .title,
+#tiger-virtual .title,
+#rotate .title,
+#island-building .title,
+#island-whirlpool .title,
+#whale-drawing .title,
+#whale-spin .title {
+    border: 4px solid #444;
+    background: none;
+    font-size: 40px;
+    color: #444;
+    margin: 40px auto 0 auto
+}
+#tiger-images .subtext,
+#survival .subtext,
+#tiger-compare .subtext,
+#tiger-virtual .subtext,
+#rotate .subtext,
+#island-building .subtext,
+#island-whirlpool .subtext,
+#whale-drawing .subtext,
+#whale-spin .subtext {
+    font-size: 14px;
+    color: #000;
+    line-height: 22px;
+    margin: 20px auto 0 auto;
+    width: 300px
+}
+.frame-container>* {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none
+}
+.frame-container>.show {
+    display: block
+}
+#awwwards {
+    position: fixed;
+    top: 40px;
+    z-index: 9999
+}
+#awwwards.left {
+    left: 0
+}
+#awwwards.right {
+    right: 0
+}
+#awwwards a {
+    display: block;
+    width: 70px;
+    height: 105px;
+    text-indent: -8000px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    overflow: hidden
+}
+#awwwards.left.black a {
+    background-image: url("../../images/ribbons/awwwards_sotd_black_left.png")
+}
+#awwwards.right.black a {
+    background-image: url("../../images/ribbons/awwwards_sotd_black_right.png")
+}
+#awwwards.left.white a {
+    background-image: url("../../images/ribbons/awwwards_sotd_white_left.png")
+}
+#awwwards.right.white a {
+    background-image: url("../../images/ribbons/awwwards_sotd_white_right.png")
+}
+#awwwards.left.green a {
+    background-image: url("../../images/ribbons/awwwards_sotd_green_left.png")
+}
+#awwwards.right.green a {
+    background-image: url("../../images/ribbons/awwwards_sotd_green_right.png")
+}
+@media (max-width: 767px) {
+    #awwwards {
+        display: none
+    }
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3 / 2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    #awwwards a {
+        -moz-background-size: 70px 105px;
+        -ie-background-size: 70px 105px;
+        -o-background-size: 70px 105px;
+        -webkit-background-size: 70px 105px;
+        background-size: 70px 105px
+    }
+    #awwwards.left.black a {
+        background-image: url("../../images/ribbons/awwwards_sotd_black_left2x.png")
+    }
+    #awwwards.right.black a {
+        background-image: url("../../images/ribbons/awwwards_sotd_black_right2x.png")
+    }
+    #awwwards.left.white a {
+        background-image: url("../../images/ribbons/awwwards_sotd_white_left2x.png")
+    }
+    #awwwards.right.white a {
+        background-image: url("../../images/ribbons/awwwards_sotd_white_right2x.png")
+    }
+    #awwwards.left.green a {
+        background-image: url("../../images/ribbons/awwwards_sotd_green_left2x.png")
+    }
+    #awwwards.right.green a {
+        background-image: url("../../images/ribbons/awwwards_sotd_green_right2x.png")
+    }
+}
+#fwa {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-image: url("../../images/ribbons/fwa_top_right.png");
+    z-index: 9998
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 1000px
+}
+body {
+    background: url(../../images/global/background.jpg)
+}
+#container {
+    width: 100%;
+    min-width: 1024px;
+    height: 100%
+}
+#slides {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 1024px
+}
+#slides>* {
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+sup {
+    font-size: xx-small;
+    vertical-align: super
+}
+footer {
+    display: none;
+    width: 100%;
+    min-width: 1024px;
+    height: 34px;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(#fcfcfc, #dfdfdf);
+    background-image: -moz-linear-gradient(#fcfcfc, #dfdfdf);
+    background-image: -o-linear-gradient(#fcfcfc, #dfdfdf);
+    background-image: linear-gradient(#fcfcfc, #dfdfdf);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: translate3d(0, 100px, 0);
+    -moz-transform: translate3d(0, 100px, 0);
+    -ms-transform: translate3d(0, 100px, 0);
+    -o-transform: translate3d(0, 100px, 0);
+    transform: translate3d(0, 100px, 0);
+    outline: none;
+    z-index: 10000
+}
+footer .logo {
+    margin: 7px 0 0 33px;
+    display: inline-block;
+    cursor: pointer
+}
+footer .buy-it-now {
+    margin-left: 15px;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    color: #3aa6b6;
+    cursor: pointer
+}
+footer .buy-it-now a,
+footer .buy-it-now a:hover {
+    text-decoration: none
+}
+footer .computer {
+    position: absolute;
+    bottom: 0;
+    left: 215px;
+    cursor: pointer
+}
+footer .label {
+    float: right
+}
+footer .pg {
+    margin: 6px 30px 0 0
+}
+footer .mpaa {
+    margin: 6px 17px 0 20px
+}
+footer .social {
+    position: relative
+}
+footer .fb {
+    top: 0px
+}
+footer .twitter {
+    top: 4px
+}
+footer a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer
+}
+footer a:hover {
+    text-decoration: underline
+}
+footer ul {
+    float: right;
+    color: #666666;
+    margin-top: 4px;
+    font-size: 14px
+}
+footer ul li {
+    clear: both;
+    display: inline-block;
+    padding-left: 14px
+}
+footer ul li.social {
+    height: 20px
+}
+footer ul .line {
+    padding-right: 14px;
+    border-right: #666666 1px solid
+}
+footer .legal {
+    position: absolute;
+    top: 34px;
+    height: 171px;
+    width: 100%;
+    background-color: #cecece
+}
+footer .legal .copy {
+    background-image: url(../../images/local/copy.png);
+    width: 765px;
+    height: 84px;
+    margin: 34px auto 0 auto
+}
+footer .legal .text {
+    width: 910px;
+    margin: 10px auto 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #999999;
+    line-height: 12px;
+    display: none
+}
+footer .legal .text a {
+    text-decoration: underline
+}
+footer .legal .text a:hover {
+    color: #000
+}
+footer #progress {
+    position: absolute;
+    left: 0;
+    top: -2px;
+    height: 2px;
+    width: 0px;
+    background-color: #999;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s
+}
+footer.up {
+    bottom: 171px
+}
+#lid {
+    background-image: url("../../images/lid/background.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale");
+    width: 100%;
+    height: 100%
+}
+#lid .quote {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    position: absolute;
+    font-size: 50px;
+    padding: 0 20%;
+    color: #fff;
+    line-height: 66px;
+    text-align: center;
+    margin-top: 84px
+}
+#lid .quote .signed {
+    font-size: 22px;
+    color: #39c0d4
+}
+#lid .second {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: absolute;
+    width: 100%;
+    padding-top: 80px
+}
+#lid .second .subtitle {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    line-height: 20px
+}
+#sidebar {
+    width: 430px;
+    height: 100%;
+    right: 0;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -ms-perspective-origin: 50% 50%;
+    -o-perspective-origin: 50% 50%;
+    perspective-origin: 50% 50%;
+    -webkit-transform-style: flat;
+    -moz-transform-style: flat;
+    -ms-transform-style: flat;
+    -o-transform-style: flat;
+    transform-style: flat;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center
+}
+#sidebar .holder {
+    position: absolute;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: flat;
+    -moz-transform-style: flat;
+    -ms-transform-style: flat;
+    -o-transform-style: flat;
+    transform-style: flat;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -ms-perspective-origin: 50% 50%;
+    -o-perspective-origin: 50% 50%;
+    perspective-origin: 50% 50%;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center
+}
+.cube {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: translate3d(0, 0, -215px);
+    -moz-transform: translate3d(0, 0, -215px);
+    -ms-transform: translate3d(0, 0, -215px);
+    -o-transform: translate3d(0, 0, -215px);
+    transform: translate3d(0, 0, -215px);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.cube div.side {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+.cube div.side-1,
+.cube div.side-2 {
+    background-image: url(../../images/sidebar/background-dark.jpg);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+
+    backface-visibility: hidden
+}
+.cube div.side-1 {
+    -webkit-transition-property: -webkit-transform, left;
+    -moz-transition-property: -moz-transform, left;
+    -o-transition-property: -o-transform, left;
+    transition-property: transform, left;
+    -webkit-transition-duration: 0.6s, 0.4s;
+    -moz-transition-duration: 0.6s, 0.4s;
+    -o-transition-duration: 0.6s, 0.4s;
+    transition-duration: 0.6s, 0.4s;
+    -webkit-transition-timing-function: ease-in-out, ease-in-out;
+    -moz-transition-timing-function: ease-in-out, ease-in-out;
+    -o-transition-timing-function: ease-in-out, ease-in-out;
+    transition-timing-function: ease-in-out, ease-in-out;
+    -webkit-transition-delay: 0.2s, 0;
+    -moz-transition-delay: 0.2s, 0;
+    -o-transition-delay: 0.2s, 0;
+    transition-delay: 0.2s, 0;
+    -webkit-transform: translate3d(0, 0, 215px) rotateY(0deg);
+    -moz-transform: translate3d(0, 0, 215px) rotateY(0deg);
+    -ms-transform: translate3d(0, 0, 215px) rotateY(0deg);
+    -o-transform: translate3d(0, 0, 215px) rotateY(0deg);
+    transform: translate3d(0, 0, 215px) rotateY(0deg);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.6) -2px 0 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.6) -2px 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.6) -2px 0 20px
+}
+.cube div.side-2 {
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -o-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transform: translate3d(0, 0, -430px) rotateY(-90deg);
+    -moz-transform: translate3d(0, 0, -430px) rotateY(-90deg);
+    -ms-transform: translate3d(0, 0, -430px) rotateY(-90deg);
+    -o-transform: translate3d(0, 0, -430px) rotateY(-90deg);
+    transform: translate3d(0, 0, -430px) rotateY(-90deg);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.6) -2px 0 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.6) -2px 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.6) -2px 0 20px
+}
+.cube.on .side-1 {
+    -webkit-transform: translate3d(215px, 0, 0) rotateY(90deg);
+    -moz-transform: translate3d(215px, 0, 0) rotateY(90deg);
+    -ms-transform: translate3d(215px, 0, 0) rotateY(90deg);
+    -o-transform: translate3d(215px, 0, 0) rotateY(90deg);
+    transform: translate3d(215px, 0, 0) rotateY(90deg)
+}
+.cube.back {
+    -webkit-transform: translate3d(0, 0, -415px);
+    -moz-transform: translate3d(0, 0, -415px);
+    -ms-transform: translate3d(0, 0, -415px);
+    -o-transform: translate3d(0, 0, -415px);
+    transform: translate3d(0, 0, -415px)
+}
+.cube.fallback {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+.cube.fallback div.side-1 {
+    -webkit-transform: translate3d(0, 0, 0) rotateY(0deg);
+    -moz-transform: translate3d(0, 0, 0) rotateY(0deg);
+    -ms-transform: translate3d(0, 0, 0) rotateY(0deg);
+    -o-transform: translate3d(0, 0, 0) rotateY(0deg);
+    transform: translate3d(0, 0, 0) rotateY(0deg)
+}
+.cube.fallback div.side-2 {
+    -webkit-transform: translate3d(0, 0, 0) rotateY(0);
+    -moz-transform: translate3d(0, 0, 0) rotateY(0);
+    -ms-transform: translate3d(0, 0, 0) rotateY(0);
+    -o-transform: translate3d(0, 0, 0) rotateY(0);
+    transform: translate3d(0, 0, 0) rotateY(0)
+}
+#sidebar .side-1 {
+    text-align: center
+}
+#sidebar .side-1 .line {
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.15)
+}
+#sidebar .side-1 .top {
+    width: 100%;
+    background-image: url(../../images/sidebar/background-light.jpg);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2)
+}
+#sidebar .side-1 .top>h3 {
+    font-size: 35px;
+    padding: 5px 25px 3px 25px;
+    border: 5px solid #fff;
+    margin-top: 54px;
+    display: inline-block;
+    color: #fff
+}
+#sidebar .side-1 .top>p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 0 60px;
+    color: #fff;
+    line-height: 21px
+}
+#sidebar .side-1 .side-1-top>.video-box {
+    width: 266px;
+    height: 149px;
+    background-color: #fff;
+    margin: 25px auto 0 auto;
+    position: relative;
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3)
+}
+#sidebar .side-1 .side-1-top>.video-box img {
+    position: relative;
+    top: 2px
+}
+#sidebar .side-1 .side-1-top>.video-box>.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/sidebar/play.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+#sidebar .side-1 .side-2-top.top {
+    height: 460px
+}
+#sidebar .side-1 .side-2-top .line {
+    margin-top: 19px
+}
+#sidebar .side-1 .side-2-top .pool {
+    display: inline-block;
+    width: 309px;
+    height: 186px;
+    margin-top: 40px;
+    position: relative
+}
+#sidebar .side-1 .side-2-top .pool img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0
+}
+#sidebar .side-1 .side-2 .number,
+#sidebar .side-1 .side-2 .gallons {
+    width: 266px;
+    margin: auto
+}
+#sidebar .side-1 .side-2 .number {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 80px;
+    text-align: right
+}
+#sidebar .side-1 .side-2 .gallons {
+    background-color: #3aa6b6;
+    color: #333333;
+    padding: 2px 0 2px 0
+}
+#sidebar .side-1>p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    font-style: italic;
+    text-align: center;
+    padding: 0 50px;
+    margin-top: 30px
+}
+#sidebar .side-1 p.after-training {
+    display: none
+}
+#sidebar .side-1 .clock {
+    position: absolute;
+    top: 500px;
+    left: 170px;
+    width: 79px;
+    height: 79px
+}
+#sidebar .side-1 .number-container {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 500px;
+    left: 40px
+}
+#sidebar .side-1 .number-container .number {
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    color: #fff
+}
+#sidebar .side-1 .number-container .time {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    color: #333333;
+    padding: 3px 0 1px 0
+}
+#sidebar .side-1 .number-container.after {
+    left: 280px
+}
+#sidebar .side-1 .number-container.after .number {
+    color: #3aa6b6
+}
+#sidebar .side-1 .number-container.after .time {
+    background-color: #3aa6b6
+}
+#waves {
+    width: 100%;
+    height: 100%;
+    min-height: 100%
+}
+#waves ul {
+    height: 1100px;
+    min-height: 100%
+}
+#waves ul .shading .container {
+    background-image: url("../../images/waves/shading.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#waves ul .lines .container {
+    background-image: url("../../images/waves/lines.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#waves ul .full .container {
+    background-image: url("../../images/waves/full.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#waves .title-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    text-align: center
+}
+#waves .title-wrapper .subtitle {
+    margin-top: 15px
+}
+#waves .mobile {
+    position: absolute;
+    bottom: 450px
+}
+#seperator {
+    height: 500px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 0 100px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 100px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 100px
+}
+#seperator .blend,
+#seperator .frames {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative
+}
+#seperator .before,
+#seperator .before .container,
+#seperator .after,
+#seperator .frames>div {
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%
+}
+#seperator .frames>div {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 15px 0 inset;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 15px 0 inset;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 15px 0 inset
+}
+#seperator .before .container {
+    background-image: url("../../images/waves/seperator/after.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#seperator .after {
+    background-image: url("../../images/waves/seperator/before.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale");
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 5px 0 15px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 5px 0 15px;
+    box-shadow: rgba(0, 0, 0, 0.8) 5px 0 15px
+}
+#seperator .frame-1 {
+    background-image: url("../../images/waves/seperator/1.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#seperator .frame-2 {
+    background-image: url("../../images/waves/seperator/2.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#seperator .frame-3 {
+    background-image: url("../../images/waves/seperator/3.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#seperator .frame-4 {
+    background-image: url("../../images/waves/seperator/4.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#seperator .frame-5 {
+    background-image: url("../../images/waves/seperator/5.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#seperator .shadow {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 15px 0 inset;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 15px 0 inset;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 15px 0 inset;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+#drift {
+    overflow: hidden
+}
+#drift .frame-container {
+    width: 100%;
+    height: 100%
+}
+#drift .frame-container .holder {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+#drift .frame-container .before-arrow,
+#drift .frame-container .after-arrow {
+    left: 220px
+}
+#drift .frame-container .blend-frame {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    border-top: 3px solid white
+}
+#drift .frame-container .blend-frame .inner-blend {
+    position: absolute;
+    background-image: url("../../images/waves/before.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale");
+    width: 100%;
+    height: 100%;
+    display: block
+}
+#videos {
+    width: 100%
+}
+#videos ul {
+    display: block
+}
+#videos .video {
+    width: 526px;
+    height: 295px;
+    display: block;
+    background-color: #fff;
+    margin: 62px auto 0 auto
+}
+#videos li * {
+    position: absolute
+}
+#videos li img {
+    top: 2px;
+    left: 2px
+}
+#videos li .bar {
+    width: 522px;
+    left: 2px;
+    text-align: center;
+    bottom: 2px;
+    color: #fff;
+    font-size: 22px;
+    padding: 5px 0 3px 0;
+    background: url(../../images/samples/black-35.png);
+    background: rgba(0, 0, 0, 0.7)
+}
+#videos li .play {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/sidebar/play.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+#storm {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../../images/waves/storm/before.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#storm .holder,
+#storm .wrapper,
+#storm .holder-2,
+#storm .wrapper-2,
+#storm .arrow-holder {
+    width: 100%;
+    height: 100%;
+    top: 0
+}
+#storm .wrapper {
+    border-top: 3px solid white
+}
+#storm .holder .image,
+#storm .holder-2 .image {
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+#storm .holder {
+    overflow: hidden
+}
+#storm .holder .image {
+    background-image: url("../../images/waves/storm/after.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#storm .before-arrow,
+#storm .after-arrow {
+    left: 10px
+}
+#storm .before-arrow {
+    top: 6px
+}
+#storm .wrapper-2 {
+    background-image: url("../../images/waves/storm/scream-before.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#storm .wrapper-2 .before-arrow,
+#storm .wrapper-2 .after-arrow {
+    top: 10px
+}
+#storm .wrapper-2 .before-arrow {
+    left: -84px;
+    background-image: url(../../images/waves/arrow-left.png);
+    background-position: right 30%;
+    padding-left: 0;
+    padding-right: 20px
+}
+#storm .wrapper-2 .after-arrow {
+    right: 8px;
+    background-image: url(../../images/waves/arrow-right.png);
+    background-position: left 30%
+}
+#storm .holder-2 {
+    overflow: hidden;
+    border-left: 3px solid white
+}
+#storm .holder-2 .image {
+    background-image: url("../../images/waves/storm/scream-after.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#storm .title-wrapper {
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    -o-transition: opacity 0.7s;
+    transition: opacity 0.7s
+}
+#storm .title-wrapper .title {
+    font-size: 40px;
+    border: 4px solid #fff
+}
+#storm .title-wrapper p {
+    font-size: 14px;
+    line-height: 22px;
+    width: 340px;
+    margin: auto;
+    color: #fff;
+    margin-top: 30px
+}
+#storm .compilation {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/waves/storm/compilation.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#storm .footer {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    width: 100%;
+    height: 125px;
+    top: 0;
+    background-image: url(../../images/global/background.jpg)
+}
+#storm .footer .inner {
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute
+}
+#storm .footer .text-wrapper {
+    width: 700px;
+    margin: auto
+}
+#storm .footer .inner-2 {
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0
+}
+#tiger-cover {
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+#tiger-cover ul {
+    height: 1510px;
+    min-height: 100%
+}
+#tiger-cover ul .shading .container {
+    background-image: url("../../images/tiger/cover/shading.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#tiger-cover ul .lines .container {
+    background-image: url("../../images/tiger/cover/lines.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#tiger-cover ul .full .container {
+    background-image: url("../../images/tiger/cover/full.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#tiger-cover div.white {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    display: block
+}
+#tiger-cover .title-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    text-align: center
+}
+#tiger-cover .title-wrapper .subtitle {
+    margin-top: 15px
+}
+#tiger-images {
+    width: 100%;
+    height: 100%
+}
+#tiger-images .title-wrapper {
+    bottom: 70px
+}
+#tiger-images img {
+    border: 4px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0 0 11px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.7) 0 0 11px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0 0 11px
+}
+#tiger-compare .title-wrapper {
+    position: absolute;
+    top: 0
+}
+#tiger-compare .holder {
+    width: 950px;
+    height: 460px;
+    margin: 170px auto 0 auto;
+    overflow: hidden;
+    position: relative
+}
+#tiger-compare .subtext {
+    width: 310px
+}
+#tiger-compare .frame-container {
+    width: 426px;
+    height: 426px;
+    overflow: hidden;
+    bottom: 8px;
+    position: absolute;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0 0 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.6) 0 0 8px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0 0 8px;
+    border: 8px solid #fff
+}
+#tiger-compare .frame-container>* {
+    width: 912px;
+    height: 450px;
+    position: relative;
+    top: -10px
+}
+#tiger-compare .frame-container.left {
+    left: 10px
+}
+#tiger-compare .frame-container.right {
+    right: 10px
+}
+#tiger-compare .frame-container.right>* {
+    left: -480px
+}
+#tiger-compare .mask {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/tiger/compare/mask.png)
+}
+#tiger-compare .indicator {
+    position: absolute;
+    top: 11px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s
+}
+#tiger-compare .indicator .left,
+#tiger-compare .indicator .right {
+    width: 426px;
+    height: 426px;
+    background-image: url(../../images/tiger/compare/highlight.png);
+    background: url(../../images/tiger/compare/highlight.png);
+    background: rgba(58, 167, 183, 0.7);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    position: absolute;
+    top: 8px;
+    text-align: center
+}
+#tiger-compare .indicator .left {
+    left: 17px
+}
+#tiger-compare .indicator .right {
+    right: 18px
+}
+#tiger-compare .indicator span {
+    color: #fff;
+    padding: 10px 15px 7px 15px;
+    border: 3px solid #fff;
+    font-size: 27px;
+    margin-top: 190px;
+    display: inline-block
+}
+#tiger-virtual {
+    width: 100%;
+    height: 100%
+}
+#tiger-virtual .frame-container {
+    width: 100%;
+    height: 456px;
+    position: absolute;
+    overflow: hidden
+}
+#tiger-virtual .subtext {
+    width: 310px
+}
+#tiger-background {
+    background-image: url("../../images/tiger/background.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#days-cover {
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+#days-cover ul {
+    height: 1270px;
+    min-height: 100%
+}
+#days-cover ul .shading .container {
+    background-image: url("../../images/days/cover/shading.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#days-cover ul .lines .container {
+    background-image: url("../../images/days/cover/lines.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#days-cover ul .full .container {
+    background-image: url("../../images/days/cover/full.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#days-cover ul .content .container {
+    background-image: url("../../images/days/cover/content.png");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#days-cover ul .white .container {
+    background-image: url("../../images/days/cover/white.png");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#days-cover ul .white {
+    height: 1500px
+}
+#days-cover .title-wrapper {
+    width: 100%;
+    position: fixed;
+    top: 200px;
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    text-align: center;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out
+}
+#days-cover .title-wrapper .subtitle {
+    margin-top: 15px
+}
+#days-cover .quote {
+    position: absolute;
+    font-size: 50px;
+    padding: 0 190px;
+    color: #d2a34b;
+    line-height: 66px;
+    text-align: center;
+    margin-top: 84px;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear
+}
+#days-cover .quote .signed {
+    font-size: 22px
+}
+#survival {
+    background-color: #fff;
+    width: 100%;
+    height: 100%
+}
+#survival .stack {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+#survival .stack img {
+    border: 2px solid #fff;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+    position: absolute
+}
+#island-cover {
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+#island-cover ul {
+    height: 1194px;
+    min-height: 100%
+}
+#island-cover ul .shading .container {
+    background-image: url("../../images/island/cover/shading.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-cover ul .lines .container {
+    background-image: url("../../images/island/cover/lines.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-cover ul .full .container {
+    background-image: url("../../images/island/cover/full.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-cover .title-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center
+}
+#island-cover .title-wrapper .subtitle {
+    margin-top: 15px
+}
+#island-seperator {
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+#island-seperator .container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../../images/island/seperator/background.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-building {
+    background-image: url("../../images/island/building/background.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-building .quarter {
+    width: 50%;
+    height: 50%;
+    position: relative
+}
+#island-building .title-wrapper {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0
+}
+#island-building .title-wrapper .title {
+    color: #fff;
+    border: 4px solid #fff;
+    margin: 0 auto
+}
+#island-building .subtext {
+    color: #fff
+}
+#island-building .corner-wrapper {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    overflow: hidden
+}
+#island-building .corner-wrapper.top {
+    top: 0;
+    right: 0
+}
+#island-building .corner-wrapper.bottom {
+    bottom: 0;
+    left: 0
+}
+#island-building .corner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden
+}
+#island-building .corner>div {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: hidden
+}
+#island-building .corner>div .container {
+    width: 100%;
+    height: 100%
+}
+#island-building .top-right .first .container {
+    background-image: url("../../images/island/building/top-1.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-building .top-right .second .container {
+    background-image: url("../../images/island/building/top-2.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-building .top-right .third .container {
+    background-image: url("../../images/island/building/top-3.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-building .bottom-left .first .container {
+    background-image: url("../../images/island/building/bottom-1.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-building .bottom-left .second .container {
+    background-image: url("../../images/island/building/bottom-2.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-building .bottom-left .third .container {
+    background-image: url("../../images/island/building/bottom-3.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool {
+    width: 100%;
+    height: 100%
+}
+#island-whirlpool .title-wrapper {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s
+}
+#island-whirlpool .title-wrapper .title {
+    color: #fff;
+    border: 4px solid #fff;
+    margin-top: 20px
+}
+#island-whirlpool .subtext {
+    color: #fff
+}
+#island-whirlpool .top,
+#island-whirlpool .bottom {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    overflow: hidden
+}
+#island-whirlpool .bottom {
+    bottom: 0
+}
+#island-whirlpool .container {
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+#island-whirlpool .left,
+#island-whirlpool .right {
+    height: 100%;
+    position: absolute;
+    overflow: hidden
+}
+#island-whirlpool .left div,
+#island-whirlpool .right div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute
+}
+#island-whirlpool .left {
+    width: 63%;
+    left: 0
+}
+#island-whirlpool .right {
+    width: 38%;
+    right: 0;
+    background-image: url(../../images/sidebar/background-light.jpg);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) -10px 0 5px 10 inset;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) -10px 0 5px 10 inset;
+    box-shadow: rgba(0, 0, 0, 0.8) -10px 0 5px 10 inset
+}
+#island-whirlpool .top .frame-1 .inner {
+    background-image: url("../../images/island/whirlpool/top/00.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .top .frame-2 .inner {
+    background-image: url("../../images/island/whirlpool/top/01.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .top .frame-3 .inner {
+    background-image: url("../../images/island/whirlpool/top/02.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .top .frame-4 .inner {
+    background-image: url("../../images/island/whirlpool/top/03.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .top .frame-5 .inner {
+    background-image: url("../../images/island/whirlpool/top/04.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .top .frame-6 .inner {
+    background-image: url("../../images/island/whirlpool/top/05.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .top .frame-7 .inner {
+    background-image: url("../../images/island/whirlpool/top/06.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .top .frame-8 .inner {
+    background-image: url("../../images/island/whirlpool/top/07.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .top .frame-9 .inner {
+    background-image: url("../../images/island/whirlpool/top/08.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .top .frame-10 .inner {
+    background-image: url("../../images/island/whirlpool/top/09.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .bottom .frame-1 .inner {
+    background-image: url("../../images/island/whirlpool/bottom/00.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .bottom .frame-2 .inner {
+    background-image: url("../../images/island/whirlpool/bottom/01.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .bottom .frame-3 .inner {
+    background-image: url("../../images/island/whirlpool/bottom/02.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .bottom .frame-4 .inner {
+    background-image: url("../../images/island/whirlpool/bottom/03.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .bottom .frame-5 .inner {
+    background-image: url("../../images/island/whirlpool/bottom/04.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .bottom .frame-6 .inner {
+    background-image: url("../../images/island/whirlpool/bottom/05.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .bottom .frame-7 .inner {
+    background-image: url("../../images/island/whirlpool/bottom/06.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .bottom .frame-8 .inner {
+    background-image: url("../../images/island/whirlpool/bottom/07.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .bottom .frame-9 .inner {
+    background-image: url("../../images/island/whirlpool/bottom/08.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .bottom .frame-10 .inner {
+    background-image: url("../../images/island/whirlpool/bottom/09.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-whirlpool .cover {
+    background: url(../../samples/black-35.png);
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none
+}
+#island-video,
+#whale-video {
+    background-image: url("../../images/island/video/poster.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#island-video .watch,
+#whale-video .watch {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: #fff
+}
+#island-video .play,
+#whale-video .play {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    background-image: url(../../images/sidebar/play.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+#whale-cover {
+    overflow: hidden
+}
+#whale-cover ul {
+    height: 1294px;
+    min-height: 100%
+}
+#whale-cover ul .shading .container {
+    background-image: url("../../images/whale/cover/shading.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#whale-cover ul .lines .container {
+    background-image: url("../../images/whale/cover/lines.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#whale-cover ul .full .container {
+    background-image: url("../../images/whale/cover/full.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#whale-cover .title-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center
+}
+#whale-cover .title-wrapper .subtitle {
+    margin-top: 15px
+}
+#whale-drawing .title-wrapper .title {
+    border: 4px solid #fff;
+    color: #fff
+}
+#whale-drawing .title-wrapper p {
+    color: #fff
+}
+#whale-drawing .banner {
+    position: absolute
+}
+#whale-drawing .frame-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+#whale-spin {
+    position: absolute
+}
+#whale-spin .title-wrapper .title {
+    border: 4px solid #fff;
+    color: #fff
+}
+#whale-spin .title-wrapper p {
+    color: #fff;
+    width: 400px
+}
+#whale-video {
+    background-image: url("../../images/whale/video/poster.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#whale-end {
+    background-image: url("../../images/whale/end/background.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#whale-end .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/samples/black-35.png);
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0
+}
+#loading {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-image: url("../../images/loading/background.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale");
+    overflow: hidden;
+    text-align: center
+}
+#loading .cover {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0
+}
+#loading .cover .content {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url("../../images/loading/cover.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="", sizingMethod="scale")
+}
+#loading .title {
+    background: rgba(0, 0, 0, 0.05)
+}
+#loading .percent {
+    position: absolute;
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    display: none
+}
+#loading .title-image {
+    width: 194px;
+    height: 65px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    display: block
+}
+#loading .award {
+    margin-top: 6px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center
+}
+#loading .including {
+    font-size: 14px;
+    color: #ccc;
+    text-align: center
+}
+#loading .title {
+    margin-top: 132px;
+    padding: 15px 30px 9px 30px;
+    font-size: 55px;
+    letter-spacing: 3px;
+    line-height: 42px
+}
+#loading .title span {
+    font-size: 41px;
+    letter-spacing: 0px
+}
+#loading .subtitle {
+    margin-top: 40px;
+    color: #3aa6b6
+}
+#loading .dots {
+    background-image: url(../../images/lid/dot.png);
+    background-repeat: repeat-y;
+    margin: auto;
+    width: 6px;
+    height: 0px;
+    -webkit-transition: height 4s linear;
+    -moz-transition: height 4s linear;
+    -o-transition: height 4s linear;
+    transition: height 4s linear
+}
+#loading .subtitle,
+#loading .scroll-arrow {
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 2s linear;
+    -moz-transition: opacity 2s linear;
+    -o-transition: opacity 2s linear;
+    transition: opacity 2s linear
+}
+#buy .stripe-left,
+#buy .stripe-right {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 33px;
+    background-image: url(../../images/buy/left.png)
+}
+#buy .stripe-right {
+    right: 0;
+    background-image: url(../../images/buy/right.png)
+}
+#buy .top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 30%
+}
+#buy .top .award-winning,
+#buy .top .award-including {
+    font-size: 21.5px;
+    color: #fff;
+    width: 288px;
+    text-align: center;
+    margin-top: 4px;
+    letter-spacing: 1px
+}
+#buy .top .award-including {
+    margin-top: 2px;
+    color: #ccc;
+    font-size: 18px
+}
+#buy .top .watch {
+    font-size: 26px;
+    line-height: 29px;
+    color: #fff;
+    width: 383px;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+#buy .top .when {
+    font-size: 36px;
+    float: right;
+    color: #39c0d4;
+    width: 375px;
+    border: 4px solid #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    top: 65px;
+    right: 0
+}
+#buy .top .when span {
+    display: none
+}
+#buy .top .top-content {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    margin-top: 40px
+}
+#buy .hole {
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    bottom: 34px;
+    overflow: hidden;
+    background-image: url(../../images/sidebar/background-dark.jpg)
+}
+#buy .hole .left,
+#buy .hole .right {
+    position: absolute;
+    top: 0;
+    width: 77px;
+    height: 100%;
+    background-position: left bottom;
+    background-image: url(../../images/buy/corner-left.png);
+    background-repeat: no-repeat
+}
+#buy .hole .right {
+    right: 0;
+    background-image: url(../../images/buy/corner-right.png)
+}
+#buy .hole .bottom {
+    background-image: url(../../images/buy/middle.png);
+    background-position: left bottom;
+    width: 100%;
+    height: 66px;
+    bottom: 0;
+    position: absolute
+}
+#buy .hole .content {
+    width: 100%;
+    height: 100%
+}
+#buy .hole .content .inner-content {
+    width: 830px;
+    margin: auto;
+    height: 100%;
+    position: relative
+}
+#buy .hole .box-container {
+    position: absolute;
+    bottom: 70px;
+    height: 340px
+}
+#buy .hole .box-holder {
+    display: inline-block;
+    width: 210px;
+    margin: 0 32px
+}
+#buy .hole .dark-button {
+    text-align: center;
+    margin-top: 17px;
+    font-size: 16px;
+    width: 168px;
+    height: 23px;
+    display: inline-block;
+    padding-top: 10px;
+    color: #fff;
+    background-color: #074555;
+    text-decoration: none;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 0 -10px 10px inset;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 0 -10px 10px inset;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 0 -10px 10px inset;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-image: -webkit-linear-gradient(#1985a0, #074555);
+    background-image: -moz-linear-gradient(#1985a0, #074555);
+    background-image: -o-linear-gradient(#1985a0, #074555);
+    background-image: linear-gradient(#1985a0, #074555)
+}
+#buy .hole .dark-button:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 10px 0 10px inset;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 10px 0 10px inset;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 10px 0 10px inset;
+    background-image: -webkit-linear-gradient(#074555, #1985a0);
+    background-image: -moz-linear-gradient(#074555, #1985a0);
+    background-image: -o-linear-gradient(#074555, #1985a0);
+    background-image: linear-gradient(#074555, #1985a0)
+}
+#buy .hole .info {
+    margin-left: 5px;
+    padding: 4px 9px 2px 9px;
+    background-color: #687678;
+    cursor: pointer;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 0 -10px 10px inset;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 0 -10px 10px inset;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 0 -10px 10px inset;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-image: -webkit-linear-gradient(#687678, #444d4e);
+    background-image: -moz-linear-gradient(#687678, #444d4e);
+    background-image: -o-linear-gradient(#687678, #444d4e);
+    background-image: linear-gradient(#687678, #444d4e)
+}
+#buy .hole .info:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 10px 0 10px inset;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 10px 0 10px inset;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 3px, rgba(0, 0, 0, 0.05) 10px 0 10px inset;
+    background-image: -webkit-linear-gradient(#444d4e, #687678);
+    background-image: -moz-linear-gradient(#444d4e, #687678);
+    background-image: -o-linear-gradient(#444d4e, #687678);
+    background-image: linear-gradient(#444d4e, #687678)
+}
+#buy .hole .bottom-copy {
+    text-align: center;
+    width: 100%;
+    font-size: 29px;
+    position: absolute;
+    bottom: 30px;
+    color: #fff
+}
+#buy .hole .bottom-copy .dark-button {
+    width: 300px;
+    padding: 10px 0 5px 0;
+    position: relative;
+    top: -4px;
+    margin-left: 10px
+}
+#buy .hole .shadow {
+    position: absolute;
+    bottom: 8px
+}
+#buy .overlay {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: translate3d(0, 500px, 0);
+    -moz-transform: translate3d(0, 500px, 0);
+    -ms-transform: translate3d(0, 500px, 0);
+    -o-transform: translate3d(0, 500px, 0);
+    transform: translate3d(0, 500px, 0);
+    display: none;
+    position: absolute;
+    bottom: 90px;
+    background-color: #000;
+    border: 2px solid #fff;
+    width: 605px;
+    height: 341px
+}
+#buy .overlay .content-wrapper {
+    width: 444px;
+    height: 250px;
+    margin: 45px 0 0 45px;
+    overflow: hidden
+}
+#buy .overlay .content {
+    width: 100%;
+    position: relative
+}
+#buy .overlay .headline {
+    font-size: 14px;
+    color: #39c0d4;
+    margin-bottom: 10px
+}
+#buy .overlay .text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 19px
+}
+#buy .overlay .line {
+    height: 1px;
+    background-color: #fff
+}
+#buy .overlay ul,
+#buy .overlay h3 {
+    margin-top: 10px
+}
+#buy .overlay li {
+    list-style: disc;
+    margin-left: 20px
+}
+#buy .overlay .scrollbar {
+    display: none;
+    height: 230px;
+    width: 10px;
+    position: absolute;
+    right: 32px;
+    top: 75px;
+    background-color: #1e2425;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+#buy .overlay .scrollbar .knob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background-color: #3aa7b7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+#buy .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-image: url(../../images/buy/close.png);
+    width: 32px;
+    height: 32px;
+    cursor: pointer
+}
+#video {
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/samples/black-35.png);
+    background: rgba(0, 0, 0, 0.9)
+}
+#video .close {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-image: url(../../images/videos/close.png);
+    width: 62px;
+    height: 62px;
+    cursor: pointer
+}
+#video .video {
+    display: block;
+    margin: 150px auto 0 auto;
+    width: 736px;
+    height: 413px;
+    border: 4px solid #fff
+}
+#video .flash-container {
+    display: none;
+    margin: 150px auto 0 auto;
+    width: 750px;
+    height: 458px
+}
+#rotate {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none
+}
+#rotate img {
+    margin: 200px auto 0 auto;
+    display: block
+}
+#rotate .title {
+    color: #fff;
+    border: 4px solid #fff
+}
