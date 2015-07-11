@@ -6,8 +6,7 @@ and open the template in the editor.
 -->
 <?php
 		include('db_connect.php');
-		if(!$pid=$_GET['pid']);
-			$pid=1;
+		$pid=1;
 		$count=0;
 		
 		$sql="Select count(*) from project";
@@ -20,7 +19,7 @@ and open the template in the editor.
 ?>
 <html>
     <head>
-        <title>Projects</title>
+        <title>Stories</title>
         <meta charset="UTF-8">
 		<meta name="viewport" content="width=1150">
         
@@ -199,7 +198,7 @@ var n=0;
 
 
                 <div class="content">
-                    <div class="projectHead">Latest Projects</div>
+                    <div class="projectHead">Latest Stories</div>
                     <div class="slider" style="width:981px;height:161px;border:0px solid;">
 					<div class="left-arrow" id="left-arrow" style="float:left;margin-left:225px;margin-top:62px;"><img src="assets/home_projects/arrow-left2.png"></div>
 						<div class="names" style="width:351px;height:160px;margin-left:25px;margin-right:25px;border:0px solid;float:left;">
@@ -244,20 +243,10 @@ var n=0;
                                 echo '<img src="CMS/uploads/'.$imageUrl.'" alt="" style="-webkit-box-shadow: 0px 1px 5px 0px #4a4a4a; -moz-box-shadow: 0px 1px 5px 0px #4a4a4a; box-shadow: 0px 1px 5px 0px #4a4a4a;" />';
                             }
                         ?>
-                                <!--
-                                    <a href="http://dev7studios.com">
-                                    <img src="assets/project/slider/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
-                                    <!--</a>
-                                    <img src="assets/project/slider/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
-                                    <img src="assets/project/slider/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
-                                -->
+                               
                             </div>
                             
-                            <!--  Captions to show for images  
-                                <div id="htmlcaption" class="nivo-html-caption">
-                                    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
-                                </div>
-                            -->
+                          
                             
                         </div>
                 
@@ -267,20 +256,7 @@ var n=0;
       					while($row = $res->fetch_assoc())
 						{
 							
-							
-							
-                        /*<div class="profilePicture" id="imageSlider">
-							  <img alt="" style="margin-left: 0px; margin-top: 0px; width: 400px; height: 400px;" 
-							   src="assets/home_projects/enactusLogo.jpg" 
-							   id="profilePictureImage" class="profilePictureImage"> 
-							</div>*/
-							
-							/*
-								<div class="circleLinks">
-									<div class="circle"><p class="circletext">'.$pid.'</p></div>
-								
-								</div>
-							*/
+				
 							
 							echo '<div class="contentRight">
 								
@@ -292,64 +268,9 @@ var n=0;
 						}
 					?>
 					<?php 
-						/*$title1="Select * from project_images where p_id=".$pid ;
-						$res1 = $con -> query($title1) or die("Error:".$title1);
-      					/*var_dump($res1);
-						echo "<br/>";*/
-						/*$title="Select * from project where p_id=".$pid ;
-						$res = $con -> query($title) or die("Error:".$title);
-      					while($row = $res->fetch_assoc())
-						{
-							echo '<div class="profilePicture" id="demoSlider"><ul>';
-							while($row1 = $res1->fetch_assoc())
-							{
-								$imageUrl=$row1['image'];
-                                $imageUrl = str_replace(":","-",$imageUrl);
-								echo '<li><a href="#'.$imageUrl.'"></a></li>';
-							}
-							echo '</ul>';
-							$title1="Select * from project_images where p_id=".$pid ;
-							$res1 = $con -> query($title1) or die("Error:".$title1);
-							while($row1 = $res1->fetch_assoc())
-							{	
-								$imageUrl=$row1['image'];
-                                $imageUrl = str_replace(":","-",$imageUrl);
-								echo '<div id="'.$imageUrl.'"><img src="CMS/uploads/'.$imageUrl.'" /></div>';
-							}
+						
 							
-								echo '<div id="pyramid"><img src="assets/home_projects/enactusLogo.jpg" /></div>';
-							echo '</div>';*/
-							
-                        /*<div class="profilePicture" id="imageSlider">
-							  <img alt="" style="margin-left: 0px; margin-top: 0px; width: 400px; height: 400px;" 
-							   src="assets/home_projects/enactusLogo.jpg" 
-							   id="profilePictureImage" class="profilePictureImage"> 
-							</div>*/
-							
-							/*$title="Select * from project where p_id=".$pid ;
-							$res = $con -> query($title) or die("Error:".$title);
-							while($row = $res->fetch_assoc())
-							{
-								echo '<div class="profilePicture" id="demoSlider">
-								  <ul>
-									<li><a href="#pyramid"></a></li>
-									<li><a href="#gardens"></a></li>
-								  </ul>
-								
-								  <div id="pyramid"><img src="assets/home_projects/enactusLogo.jpg" /></div>
-								
-								  <div id="gardens"><img src="assets/home_projects/enactuslogo.png" /></div>
-								
-								</div>';
-							
-								echo '<div class="contentRight">
-								<div class="circleLinks">
-									<div class="circle"><p class="circletext">'.$pid.'</p></div>
-								
-								</div>
-								<div class="hello" id="projectTitle">'.$row["name"].'</div>
-								<div><pre class="helloContent">'.$row["description"].'</pre></div>';
-						}*/
+                        
 						?>
                     <!--</div>                   -->
                     <div style="clear:both">
@@ -362,37 +283,11 @@ var n=0;
                 </div>
             </div>
 			
-            <!--<div class="footer">
-                <div class="footerContent"></div>
-            </div>-->
         </div>
         <?php
         	include("footer.php");
 		?>
-        <!-- start, header active class -->
-        <!--<script src="js/jquery-2.1.1.min.js"></script>
-        <script>
-			$( document ).ready(function() {
-				 $("#ul_li_projects").addClass("active");
-			});
-		</script>-->
-        <!-- end, header active class -->  
-        <!--
-            <script>
-            var demo = $("div#demoSlider").sliderTabs({
-              autoplay: 4000,
-              height: 402,
-              indicators: true,
-              panelArrows: true,
-              panelArrowsShowOnHover: true,
-              transitionSpeed: 600,
-              tabs: false,
-              classes: {
-                panel: 'demoPanel'
-              }
-            });
-            </script>
-		-->
+       
                 
         <!--  Load the javascript files  -->
 		<script type="text/javascript" src="js/project_slider/jquery.nivo.slider.js"></script>

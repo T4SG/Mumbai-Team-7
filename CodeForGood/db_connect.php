@@ -1,13 +1,10 @@
 <?php
-	/*
-		$con = new mysqli("localhost", "root", "", "enactus");
+	
+		$con = new mysqli("localhost", "root", "", "codeforgood");
 		if(!$con)
 			echo "Connection not made"; 
-	*/
-	$con = new mysqli("localhost", "root", "", "enactus");
-	if(!$con)
-		echo "Connection not made";
-		
+	
+	
 
 // Check connection
 if ($con->connect_error) {
