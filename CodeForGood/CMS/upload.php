@@ -104,7 +104,7 @@ if ($tableName == 'project_images') {
 				$query;
 
 				if ($tableName == 'bab') {
-					$referHash = '#Bab';
+					/*$referHash = '#Bab';
 					//to find max id
 					$query_bab = "Select MAX(b_id) as max_bid from bab";
 					$res_bab = $con -> query($query_bab);
@@ -119,7 +119,7 @@ if ($tableName == 'project_images') {
 					$description = str_replace($search_for2,$replace_with2,$description);
 					
 					$query = "INSERT INTO bab(b_id, fname, lname, caption, description, image) VALUES ('$pid_bab', '$fname', '$lname', '$caption', '$description', '$fn')";
-				} else if ($tableName == 'gallery') {
+				*/} else if ($tableName == 'gallery') {
 					$referHash = '#Gallery';
 					//to find max id
 					$query_gallery = "Select MAX(g_id) as max_gid from gallery";

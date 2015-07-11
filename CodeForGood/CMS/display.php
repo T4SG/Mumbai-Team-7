@@ -7,19 +7,20 @@ class Display {
 		echo "<div style='clear:both;'></div></div>";
 		
 		echo "<div>";
+		echo '<div style="background-color:rgba(255,255,255,0.5);border:10px solid white;width:500px;height:600px;padding:50px;">';
 		echo "<form action='upload.php' method='post' enctype='multipart/form-data'>";
 		if($tableName != 'project_images'){
-			echo "Upload Image: ";
-			echo "<input type='file' name='uploaded_image' /><br/>";
-			echo "<input type='text' name='caption' placeholder='Enter Image Caption' />";
+			echo "Upload Image:<br/><br/> ";
+			echo "<input type='file' name='uploaded_image' /><br/><br/>";
+			echo "<input type='text' name='caption' placeholder='Enter Image Caption' /><br/><br/>";
 		}
 		 else if($tableName == 'project_images') {
 			echo "Upload Image:(Max 5)<br/> ";
-			echo "<input type='file' name='uploaded_image[]' /><br/>";
-			echo "<input type='file' name='uploaded_image[]' /><br/>";
-			echo "<input type='file' name='uploaded_image[]' /><br/>";
-			echo "<input type='file' name='uploaded_image[]' /><br/>";
-			echo "<input type='file' name='uploaded_image[]' /><br/>";
+			echo "<input type='file' name='uploaded_image[]' /><br/><br/>";
+			echo "<input type='file' name='uploaded_image[]' /><br/><br/>";
+			echo "<input type='file' name='uploaded_image[]' /><br/><br/>";
+			echo "<input type='file' name='uploaded_image[]' /><br/><br/>";
+			echo "<input type='file' name='uploaded_image[]' /><br/><br/>";
 			
 			echo "<input type='text' name='caption' placeholder='Enter Image Caption' /><br/>";
 			echo "<input type='text' name='name' placeholder='Enter Story Name' /><br/>";
