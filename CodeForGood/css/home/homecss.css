@@ -1,0 +1,224 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 7, 2014, 11:26:48 AM
+    Author     : xyz
+*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+	
+	//background-image: url("../../assets/background/enactus_bg.png");
+    //background-repeat: repeat;
+	
+	
+}
+.background{
+    top: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    //position: absolute;
+    height: auto;    
+    width: 1263px;
+	background: rgba(255,255, 255, 0.5);
+	z-index:-1;
+   
+}
+
+.structure{
+    margin: 0px 100px 0px 100px;  
+    height: auto;
+   // border: 1px solid ;
+    //position: static;
+    /* width: 980px; */
+    //top: 0px;
+    /* height: 970px; */
+    //left: 136px;
+    //background-color: brown;
+	 
+}
+
+
+/*.header{
+    //position: absolute;
+    // margin: 5px 10px;  
+    height: 129px;
+    border: 1px solid ;
+	background-color:black;
+    
+}*/
+.content{
+    padding: 5px 50px;
+    margin: 15px 10px;  
+    height: auto; 
+   // border: 1px solid ;
+   background: rgba(255,255, 255, 0.8);
+	
+}
+
+.profilePicture{
+       float: left;
+      
+    margin-top:34px;
+    width: 400px;
+    height: 400px;
+   
+    border-radius: 50%;
+	opacity:1;
+	
+    
+}
+
+.profilePictureImage {
+border-radius: 50%;
+
+
+}
+
+.contentRight{
+    margin-left: 60px;
+    float: left;
+    width: 450px;
+    height: auto;
+   // border: 1px solid ;
+  
+    
+}
+
+.hello{
+    //margin: 5px 10px;
+	width: 465px;
+	/* padding-top: 20px; */
+	/* padding-left: 100px; */
+	font-size: 32px;
+	text-decoration: underline;
+	color: #606060;
+	line-height: 1.9em;
+	/* font-weight: bold; */
+	text-align: center;
+	/* margin: 0px; */
+	margin-top: 50px;
+	/* height: 100px; */
+	font-family: MyWebFont;
+		
+}
+
+.hellol2
+{
+font-family: MyWebFont; 
+}
+
+.circleLinks{
+    margin: 5px 10px;
+     width: 451px; 
+    height: 170px;
+  //  border: 1px solid ;
+    
+    
+}
+.circle1{
+    
+    float: left;
+    margin: 21px 9px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+   border: 2px solid #1A237E;
+	background-color:#3F51B5;
+
+}
+.circle2{
+    
+    float: left;
+    margin: 21px 9px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+   border: 2px solid #B71C1C;
+	background-color:#F44336;
+
+}
+.circle3{
+    
+    float: left;
+    margin: 21px 9px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+   border: 2px solid #004D40;
+	background-color:#009688;
+
+}
+#right-arrow,#left-arrow
+{ cursor: pointer; }
+.circle1:hover
+{
+background-color:#1A237E;
+ border: 2px solid #1A237E;
+ transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+ cursor: pointer;
+}
+.circle2:hover
+{
+background-color:#B71C1C;
+ border: 2px solid #B71C1C;
+ transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+ cursor: pointer;
+}
+.circle3:hover
+{
+background-color:#004D40;
+ border: 2px solid #004D40;
+ transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+ cursor: pointer;
+}
+.circletext {
+    width: 70%;
+    margin: 0 auto;
+}
+.circletext
+{
+	text-align: center;
+	position: relative;
+	top: 28%;
+	//margin-left:30px;
+	//margin-top:50px;
+	color:white;
+	font-size:17px;
+	font-family: MyWebFont; 
+}
+
+.helloContent{
+    padding: 20px;
+    /* width: 300px; */
+    height: auto;
+    // border: 1px solid ;
+	color:#606060;
+	text-align:justify;
+    font-family: MyNoticiaFont;
+	//background: rgba(255,255, 255, 0.8);
+}
+
+a:not(.cont_reading):link {
+    text-decoration: none;
+}
+
+a:not(.cont_reading):visited {
+    text-decoration: none;
+}
+
+a:not(.cont_reading):hover {
+    text-decoration: none;
+}
+
+a:not(.cont_reading):active {
+    text-decoration: none;
+}

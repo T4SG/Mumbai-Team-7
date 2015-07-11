@@ -1,0 +1,300 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 7, 2014, 11:26:48 AM
+    Author     : xyz
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+	
+	background-image: url("../../assets/background/enactus_bg.png");
+    background-repeat: repeat;
+	
+	
+}
+.background{
+	height: auto;
+	min-height: 1000px;
+	top: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    //position: absolute;
+    //height: 702px;    
+    width: 1263px;
+	background: rgba(255,255, 255, 0.5);
+	z-index:-1;
+   
+}
+
+.structure{
+	height: auto;
+    margin: 0px 100px 0px 100px;  
+    /* height: 612px; */
+   // border: 1px solid lightgrey;
+    
+    //position: static;
+    /* width: 980px; */
+    //top: 0px;
+    /* height: 970px; */
+    //left: 136px;
+    //background-color: brown;
+}
+
+
+/*.header{
+    //position: absolute;
+    margin: 5px 10px;  
+    height: 129px;
+    border: 1px solid lightgrey;
+    
+}*/
+.content{
+	height: auto;
+    padding: 5px 40px;
+    margin: 5px 10px;  
+    /* height: 449px; */
+    //border: 1px solid lightgrey;
+	background: rgba(255,255, 255, 0.8);
+}
+
+.profilePicture{
+		
+	margin-right: 60px;
+	float: left;
+      
+    //margin:1px 5px;
+    width: 400px;
+    //height: 400px;
+    //border: 3px solid rgb(213, 140, 1);
+    //border-radius: 50%;
+    
+}
+
+.contentRight{
+    //margin-left: 60px;
+    float: left;
+    //width: 400px;
+	width: 503px;
+    height: auto;
+   // border: 1px solid lightgrey;
+    
+}
+
+.hello{
+    margin: 5px 10px;
+    height: 100px;
+    font-family: MyWebFont;
+}
+
+.helloContent{
+	white-space: pre-line;
+	margin: 20px 10px;
+	/* font-family: MyWebFont; */
+	font-size: 18px;
+	color: black;
+	/* padding: 20px; */
+	/* width: 300px; */
+	/* height: 100px; */
+	color: #606060;
+	text-align: justify;
+	font-family: MyNoticiaFont;
+}
+
+.circleLinks{
+    margin: 5px 10px;
+    height: 100px;
+  //  border: 1px solid lightgrey;
+    
+    
+}
+.circle{
+    
+    float: left;
+    margin: 2px 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+	border: 2px solid white;
+	background-color:#0088BC;
+display: block;
+margin: 1em auto;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+-webkit-border-radius: 99em;
+-moz-border-radius: 99em;
+border-radius: 99em;
+border: 5px solid #eee;
+box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.circletext
+{
+margin-left: 31px;
+margin-top: 36px;
+font-size: 26px;
+color:white;
+font-weight:bold;
+font-family: MyWebFont;
+}
+
+
+
+.footer{
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    /* position: absolute; */
+    //border: 1px solid black;
+    width: 1263px;
+    height: 300px;
+    background-color: rgba(232, 53, 86, 1);
+}
+/*.footerContent{
+    margin: 10px 100px;
+    border: 1px solid lightgrey;
+    height: 100px;
+}*/
+
+/*projects.html*/
+
+
+.projectHead{
+    height: 100px;
+    //border: 1px solid lightgrey;
+    margin: 1px;
+	font-family:MyWebFont;
+	color: #606060;
+	line-height: normal;
+	font-size: 50px;
+	letter-spacing:normal;
+	padding-left: 300px;
+	margin-top: 30px;
+	font-weight:bold;
+}
+
+.projectDesc{
+    //border: 1px solid lightgrey;
+	font: normal normal normal 13px/1.2em 'Open Sans',sans-serif;
+	color: #606060;
+    
+}
+
+#projectTitle{
+    height: 40px;
+	 font-family: MyWebFont;
+	color: #0088BC;
+	font-size: 30px;
+	margin-top: 35px;
+	font-size:50px;
+	
+}
+
+.circletext2
+{
+margin-left: 3px;
+margin-top: 36px;
+font-family: MyWebFont;
+color:white;
+}
+
+.circletag2_slider1:hover
+{
+background-color:#1A237E;
+ border: 2px solid #1A237E;
+ transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+ cursor: pointer; 
+}
+.circletag2_slider2:hover
+{
+background-color:#B71C1C;
+ border: 2px solid #B71C1C;
+ transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+ cursor: pointer;
+}
+.circletag2_slider3:hover
+{
+background-color:#004D40;
+ border: 2px solid #004D40;
+ transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+ cursor: pointer; 
+}
+#right-arrow,#left-arrow
+{ cursor: pointer; }
+.circletag2_slider1
+{
+  display: block;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  text-align:center;
+  display:block;
+  float:left;
+  width:93px;
+  height:93px;
+  margin-top:23px;
+  margin-left:20px;
+  border: 2px solid #1A237E;
+  background-color:#3F51B5;
+}
+.circletag2_slider2
+{
+
+  display: block;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  text-align:center;
+  display:block;
+  float:left;
+  width:93px;
+  height:93px;
+  margin-top:23px;
+  margin-left:20px;
+  border: 2px solid #B71C1C;
+  background-color:#F44336;
+}
+.circletag2_slider3
+{
+
+  display: block;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  text-align:center;
+  display:block;
+  float:left;
+  width:93px;
+  height:93px;
+  margin-top:23px;
+  margin-left:20px;
+   border: 2px solid #004D40;
+	background-color:#009688;
+}
+
+.circletag2_slider1 ,.circletag2_slider2,.circletag2_slider3  {
+    vertical-align: middle;
+}
+
+a { color: inherit; }

@@ -1,0 +1,218 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#feedback-page{
+	text-align:center;
+}
+
+#text-feedback{
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color:white;
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:30px;
+	position:relative;
+}
+
+#form-div {
+	background-color:#3c3c3c;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: relative;
+}
+#popup
+{
+	font-family: 'Montserrat', Helvetica, Arial,  sans-serif;
+	width: 50%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: rgb(230, 0, 109);
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	margin:auto;
+	display:inline;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	z-index: 10;
+	text-align:center;
+	display:none;
+}
+.feedback-input {
+	opacity:0.9;
+	color:rgb(230, 0, 109);
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight:400;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+  border: 3px solid #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid rgb(230, 0, 109);
+	color: rgb(230, 0, 109);
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+.name{
+	background-image: url('assets/contact us/name.svg');
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.name:focus{
+	background-image: url('assets/contact us/name.svg');
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.email{
+	background-image: url('assets/contact us/email.svg');
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.email:focus{
+	background-image: url('assets/contact us/email.svg');
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.mobile{
+	background-image: url('assets/contact us/mobile.png');
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.mobile:focus{
+	background-image: url('assets/contact us/mobile.png');
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.message{
+	background-image: url('assets/contact us/message.svg');
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+	line-height: 150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Helvetica, Arial,  sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: rgb(230, 0, 109);
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: rgb(230, 0, 109);
+}
+	
+.submit:hover {
+	color: rgb(230, 0, 109);
+}
+	
+.ease {
+  border-top:3px #3c3c3c solid;
+	width: 0px;
+	height: 76px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+.footer{
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    /* position: absolute; */
+    //border: 1px solid black;
+	width:100%;
+	height:132px;
+	background-color: #FFC222; 
+}
+.footerContent{
+    margin: 10px 100px;
+    border: 1px solid black;
+    height: 100px;
+}

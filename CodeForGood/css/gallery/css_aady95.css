@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 7, 2014, 11:26:48 AM
+    Author     : xyz
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+	
+	//background-image: url("../../assets/background/enactus_bg.png");
+    //background-repeat: repeat;
+	
+	
+}
+.background{
+	height: auto;
+    top: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    //position: absolute;
+    //height: 500px;    
+    width: 1263px;
+	background: rgba(255,255, 255, 0.5);
+	z-index:-1;
+   
+}
+
+
+.structure{
+	
+	height: auto;
+	margin: 0px 100px 0px 100px;
+    /* margin: 50px 100px 0px 100px;  */
+    /* height: 612px; */
+    //border: 1px solid black;
+    
+    //position: static;
+    /* width: 980px; */
+    //top: 0px;
+    /* height: 970px; */
+    //left: 136px;
+    //background-color: brown;
+}
+
+
+/*.header{
+    //position: absolute;
+    margin: 5px 10px;  
+    height: 129px;
+    border: 1px solid black;
+    
+}*/
+.content{
+	height: auto;
+    padding: 5px 50px;
+    margin: 0px 10px;  
+    //height: 500px; 
+    //border: 1px solid black;
+	background: rgba(255,255, 255, 0.8);
+}

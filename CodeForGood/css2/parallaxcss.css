@@ -1,0 +1,138 @@
+/*
+ * CSS3 Parallax by Martin Ivanov (@wemakesitesnet)
+ * @author Martin Ivanov
+ * @url developer website: http://wemakesites.net/
+ * @url developer twitter: https://twitter.com/#!/wemakesitesnet
+ * @url developer blog http://acidmartin.wordpress.com/
+ **/
+
+/*
+ * Do you like this solution? Please, donate:
+ * https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QFUHPWJB2JDBS
+ **/
+@font-face {
+    font-family: greatvibes;
+    src: url(font/GreatVibes-Regular);
+}
+
+*,
+*::before,
+*::after
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body,
+body > section
+{
+    height: 100%;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+a,
+body > section
+{
+    color: #fff;
+}
+
+html 
+{
+    overflow: hidden;
+}
+
+body 
+{ 
+    overflow: hidden;
+    overflow-y: auto;
+    font-family: "Open Sans", Helvetica, Sans-serif;
+    background: #2e3436;
+    cursor: default;
+    
+    -webkit-perspective: 1px;
+    -moz-perspective: 1px;
+    perspective: 1px;
+    
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+body > section,
+body > section > div:nth-child(2)
+{
+    width: 100%;
+}
+
+body > section
+{
+    position: relative;
+    display: block;
+    height: 100%;
+    
+    -webkit-transform-style: inherit;
+    -moz-transform-style: inherit;
+    transform-style: inherit;
+}
+
+body > section > div:first-child
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    -webkit-pointer-events: none;
+    -moz-pointer-events: none;
+    pointer-events: none;
+}
+
+body > section, 
+body > section > div:first-child
+{
+    background-position: 50% 50%; 
+    background-size: cover; 
+	padding:20px;
+}
+
+body > section:nth-child(odd) > div:first-child
+{
+    z-index: -1;
+    
+    -webkit-transform: translateZ(-1px) scale(2);
+    -moz-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+}
+
+body > section:nth-child(even)
+{
+    background-attachment: fixed;
+}
+
+body > section > div:nth-child(2)
+{
+   
+    height: 100vh;
+    width: 100vw;
+    padding: 5%;
+    text-align: center;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+h2
+{
+	padding:30px;
+	background-color:rgba(255,255,255,0.5);
+	font-family:greatvibes;
+	
+}
