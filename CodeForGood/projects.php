@@ -6,7 +6,8 @@ and open the template in the editor.
 -->
 <?php
 		include('db_connect.php');
-		$pid=1;
+		
+		$pid=$_GET['pid'];
 		$count=0;
 		
 		$sql="Select count(*) from project";
@@ -31,6 +32,9 @@ and open the template in the editor.
         <!--start, slider
         	<link rel="stylesheet" href="css/projects/jquery.sliderTabs.css">
         -->
+		<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "36acedca-c9c6-406a-8fc8-b7adbcd1df0a", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 		<script src="js/jquery-2.1.1.min.js"></script>
         <!--
         	<script src="js/jquery.sliderTabs.js"></script>
@@ -277,7 +281,12 @@ var n=0;
                     </div>
                             
                     </div>
-
+					<span class='st_facebook_large' displayText='Facebook'></span>
+					<span class='st_twitter_large' displayText='Tweet'></span>
+					<span class='st_linkedin_large' displayText='LinkedIn'></span>
+					<span class='st_pinterest_large' displayText='Pinterest'></span>
+					<span class='st_email_large' displayText='Email'></span>
+					<span class='st_googleplus_large' displayText='Google +'></span>
 
 
                 </div>

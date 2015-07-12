@@ -13,7 +13,7 @@ body{
     border: 0px;
     outline: 0px;
 	
-	background-image: url("../../assets/background/enactus_bg.png");
+	background-image: url("../../images/back2black.jpg");
     background-repeat: repeat;
 	
 	
@@ -29,7 +29,7 @@ body{
     //position: absolute;
     //height: 702px;    
     width: 1263px;
-	background: rgba(255,255, 255, 0.5);
+	background-image: url("../../images/back2black.jpg");
 	z-index:-1;
    
 }
@@ -59,9 +59,9 @@ body{
 .content{
 	height: auto;
     padding: 5px 40px;
-    margin: 5px 10px;  
+    margin: 10px;  
     /* height: 449px; */
-    //border: 1px solid lightgrey;
+    border: 1px solid white;
 	background: rgba(255,255, 255, 0.8);
 }
 
@@ -209,22 +209,22 @@ color:white;
 
 .circletag2_slider1:hover
 {
-background-color:#1A237E;
- border: 2px solid #1A237E;
+background-color:black;
+ border: 2px solid white;
  transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
  cursor: pointer; 
 }
 .circletag2_slider2:hover
 {
-background-color:#B71C1C;
- border: 2px solid #B71C1C;
+background-color:black;
+ border: 2px solid white;
  transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
  cursor: pointer;
 }
 .circletag2_slider3:hover
 {
-background-color:#004D40;
- border: 2px solid #004D40;
+background-color:black;
+ border: 2px solid white;
  transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
  cursor: pointer; 
 }
@@ -247,8 +247,8 @@ background-color:#004D40;
   height:93px;
   margin-top:23px;
   margin-left:20px;
-  border: 2px solid #1A237E;
-  background-color:#3F51B5;
+  border: 2px solid #FFF;
+  background: rgba(0,0,0,0.5);
 }
 .circletag2_slider2
 {
@@ -268,8 +268,8 @@ background-color:#004D40;
   height:93px;
   margin-top:23px;
   margin-left:20px;
-  border: 2px solid #B71C1C;
-  background-color:#F44336;
+    border: 2px solid #FFF;
+  background: rgba(0,0,0,0.5);
 }
 .circletag2_slider3
 {
@@ -289,8 +289,8 @@ background-color:#004D40;
   height:93px;
   margin-top:23px;
   margin-left:20px;
-   border: 2px solid #004D40;
-	background-color:#009688;
+  border: 2px solid #FFF;
+  background: rgba(0,0,0,0.5);
 }
 
 .circletag2_slider1 ,.circletag2_slider2,.circletag2_slider3  {
