@@ -72,7 +72,8 @@
             <div>
                 
                 <center>
-			<a href="donate/donate.php"><img src="images/heart_PNG702.png" width="200px" height="auto" style="opacity:0.8;margin-top:20px;"/>DONATE</a>
+			<img src="images/heart_PNG702.png" width="200px" height="auto" style="opacity:0.8;margin-top:20px;"/><br/>
+			<a href="donate/donate.php">DONATE</a>
 			</center>
             </div>
 			

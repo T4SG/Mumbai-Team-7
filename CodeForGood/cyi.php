@@ -45,7 +45,7 @@
 </script>
 	<style>
 p{font-family:Open Sans; background-color:FF99FF;color:coral;font-size:14;}
-b{font-family:sans-serif;color:coral;background-color:FFCCFF;color:blue;font-size:16;}
+b{font-family:sans-serif;color:coral;background-color:FFCCFF;color:white;font-size:16;}
 i{font-family:Copperplate Gothic Bold;color:blue;background-color:FFCCFF;color:blue;font-size:10;}
 .container{width:100%;height:100%;}
 .center{width:40%;height:450px;margin:auto;background-color:rgba(255,255,255,0.5);border:10px solid white;padding:20px;}

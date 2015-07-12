@@ -6,7 +6,7 @@
 		<li id="ul_li_home"><a href="index.php"><div style="float:left;margin-left:30px;margin-right:30px;">Home</div></a></li>
 		<li id="ul_li_about"><a href="projects.php?pid=1"><div style="float:left;margin-right:30px;">Stories</div></a></li>
 		<li id="ul_li_about"><a href="cyi.php"><div style="float:left;margin-right:30px;">Calculate your impact</div></a></li>
-		<li id="ul_li_gallery"><a href="gallery.php"><div style="float:left;margin-right:30px;">Gallery</div></a></li>
+		<li id="ul_li_gallery"><a href="gallery.html"><div style="float:left;margin-right:30px;">Gallery</div></a></li>
 		<li id="ul_li_contact"><a href="charity2.php"><div style="float:left;margin-right:30px;">Donate</div></a></li>
         </ul>
 	</div>
