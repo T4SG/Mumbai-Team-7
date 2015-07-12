@@ -24,6 +24,10 @@
 				<ul>
 					<li><a href="#Gallery" id="gallery-button">Image</a></li>
 					<li><a href="#Projects" id="projects-button">Story</a></li>
+					<li><a href="../index.php" id="projects-button">Home</a></li>
+					<li><a href="../projects.php?pid=1" id="projects-button">Stories</a></li>
+					<li><a href="../index.php" id="projects-button">Gallery</a></li>
+					<li><a href="../charity2.php" id="projects-button">Donate</a></li>
 				</ul>
 			</nav>
 		</div><!-- /container -->

@@ -1,41 +1,42 @@
-<div class="footer" id="footer" >
-	<div class="footerContent">
-	<!--<div class="circletag2" id="phone" style="margin-left:78px;">
-		<img src="assets/footer/phone.png" style="display: table-cell;text-align: center;vertical-align: middle;margin-left:11px;margin-top:6px"></img>
-	</div>
-	<div class="text">
-		<b>Contact us</b><br/>022-26555555
-	</div>-->
-	<a href="contact.php">
-		<div class="circletag2" id="phone" style="margin-left: 1%;">
-			<img src="assets/footer/message.png".png" style="display: table-cell;text-align: center;vertical-align: middle;margin-left:6px;margin-top:13px"></img>
-		</div>
-	</a>
-    <a href="contact.php">
-	<div class="text">
-		<b>Contact</b> <br/>enactushrcollege199@gmail.com
-	</div>
+ <div style="width=100%;height:120px;background-color:#FF7701;">
+ <div id="div1" style="background-color:#FF7701;float:left">
+ <font type="Comic Sans MS" color="black" size = 3 style="padding-left:20px;"><b><u> OUR GOALS :</u></b>
+ </font>
+ <br/>
+ <br/>
+ <font type="Tahoma" color="black" size = 4 style="float:left;padding-left:20px;"><b>Happy Hearts Fund works during the gap period <br> when children are forgotten after emergency response is complete,<br> bringing hope and empowerment to generations of children and entire communities.<br></b></font></font>
+ 
+ </div>
+<div id="share-buttons" style="background-color:#FF7701;float:right">
+    
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/happyheartsfund" target="_blank">
+        <img style="width: 35px;padding: 5px;border: 0;box-shadow: 0;display: inline;" src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
     </a>
-	<div class="circletag2" id="phone" style="margin-left: 15%;">
-		<img src="assets/footer/plus.png".png" style="display: table-cell;text-align: center;vertical-align: middle;margin-left:8px;margin-top:7px"></img>
-	</div>
-	<div class="text">
-		<b>Follow us</b><br/>
-		<div class="icon" style="width:auto;height:auto;float:left;"><a href="https://www.facebook.com/enactushrcollege" target="_blank"><img src="assets/footer/fb.jpg".jpg" style="display: table-cell;text-align: center;vertical-align: middle;margin-left:0px;margin-right:5px;margin-top:0px"></img></a></div>
-		<div class="icon" style="width:auto;height:auto;float:left;margin-top:8px;"><a href="https://instagram.com/enactusHRC" target="_blank" ><img src="assets/footer/ig.png".png" style="display: table-cell;text-align: center;vertical-align: middle;margin-left:0px;margin-right:5px;margin-top:0px"></img></a></div>
-		<div class="icon" style="width:auto;height:auto;float:left;margin-top:7px;"><a href="https://twitter.com/enactusHRC" target="_blank" ><img src="assets/footer/twitter.png".png" style="display: table-cell;text-align: center;vertical-align: middle;margin-left:0px;margin-top:0px"></img></a></div>
-	</div>
-	<div class="circletag2" id="phone" style="margin-left: 20%;">
-		<img src="assets/footer/copyr.png".png" style="display: table-cell;text-align: center;vertical-align: middle;margin-left:7px;margin-top:6px"></img>
-	</div>
-	<div class="text">
-		<b>Copyrights</b><br/>HR College
-	</div>
-	</div>
-	<div class="dev" style="float:right;margin-right:20px;text-decoration:none;font-family: MyFont;">
-		<a href="devpage.php" style="text-decoration: none; color: black;">Developers</a>
-	</div>
-    <div class="dev" style="float:left;font-family: MyFont;margin-left:20px;">
-		<a href="http://www.hrcollege.edu" target="_blank" style="text-decoration: none; color: black;">HR College Of Commerce & Economics</a>
-	</div>
-</div>
+    
+   
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/company/happy-hearts-fund" target="_blank">
+        <img style="width: 35px;padding: 5px;border: 0;box-shadow: 0;display: inline;" src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+    </a>
+    
+    <!-- Pinterest -->
+    <a href="">
+        <img style="width: 35px;padding: 5px;border: 0;box-shadow: 0;display: inline;" src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
+    </a>
+    
+     
+    <!-- Twitter -->
+    <a href="https://twitter.com/happyheartsfund" target="_blank">
+        <img style="width: 35px;padding: 5px;border: 0;box-shadow: 0;display: inline;" src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+    
+ </div>
+ 
+
+ 
+ <div style="background-color:#FF7701;">
+ <font type="Tahoma" color="green" size=5>Share your stories <a href="projects.php?pid=1">here!</a>
+ </div>
+ 
+ 

@@ -6,7 +6,6 @@ and open the template in the editor.
 -->
 <?php
 		include('db_connect.php');
-		
 		$pid=$_GET['pid'];
 		$count=0;
 		
@@ -16,7 +15,6 @@ and open the template in the editor.
 		{							
 			$abc=$row2[0];
 		}
-			//echo $pid;
 ?>
 <html>
     <head>

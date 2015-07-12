@@ -23,10 +23,7 @@ function load($filename) {
 function save($filename, $image_type=IMAGETYPE_JPEG, $compression=75, $permissions=null) {
 	if( $image_type == IMAGETYPE_JPEG || $image_type == IMAGETYPE_JPEG2000 ) {
 	echo "yo<br/>";
-	//copy( $filename, "/var/www/html" );
-	//$_SERVER['DOCUMENT_ROOT']
-	//$fpath=$_SERVER['DOCUMENT_ROOT']."/Enactus_Git/enactus-repository/Reference/Website/Final-31-1/CMS/uploads/";
-	//$fpath="$_SERVER['DOCUMENT_ROOT']/Enactus_Git/enactus-repository/Reference/Website/CMS/uploads/";
+	
 	$fpath="uploads/";
 	if(imagejpeg($this->image,"".$fpath.$filename,$compression))
 	return true;
